@@ -14,12 +14,12 @@
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false;'renderer='antialias: true; alpha: true; precision: medium;'>
                 <a-assets>
-                  <a-asset-item id="animated-asset" src="https://raw.githack.com/circe06/AR.jswithmarker/master/perspective/scene.gltf"></a-asset-item>
+                  <a-asset-item id="animated-asset" src="https://raw.githack.com/circe06/AR.jswithmarker/master/nasa_curiosity/scene.gltf"></a-asset-item>
                 </a-assets>     
 		
                 <a-marker preset="hiro">
                   <a-plane position="0 0 0" rotation="-90 0 0" width="1" height="1" color="#7BC8A4"></a-plane>
-	          <a-entity gltf-model="#animated-asset" scale="0.2 0.2 0.2"> </a-entity>
+	          <a-entity gltf-model="#animated-asset" scale="0.5 0.5 0.5"> </a-entity>
                 </a-marker>
 
 	         <a-entity camera></a-entity>
